@@ -17,7 +17,7 @@ function Homesec2() {
                 <span className='font-poppins text-2xl sm:text-3xl md:text-4xl text-white font-bold'>
                     Want to become an agent ?
                 </span>
-                <span className='font-medium text-md  font-poppins text-white'>
+                <span className='font-medium text-lg  font-poppins text-white'>
                     Build a fulfilling career and be your own boss with Valli Chits.
                 </span>
                 <span className='font-light font-sm font-poppins text-white '>
@@ -26,7 +26,7 @@ function Homesec2() {
 
 
                 <button
-                    className="font-poppins bg-white  font-semibold text-md rounded-full  shadow-xl text-black h-[40px] w-[116px]"
+                    className="font-poppins bg-white  font-semibold text-lg rounded-full  shadow-xl text-black h-[40px] w-[116px]"
                     style={{ transition: 'none' }}
                 >
                     join us now

@@ -8,11 +8,11 @@ function Homeabout() {
     <h1 className='font-poppins text-2xl md:text-3xl text-black font-semibold'>
       About <span className='text-[#00be54]'>Valli Chits</span>
     </h1>
-    <p className='font-light text-md font-poppins leading-relaxed text-[#535353] tracking-wide text-justify mt-1'>
+    <p className='font-light text-lg font-poppins leading-relaxed text-[#535353] tracking-wide text-justify mt-1'>
       Valli Chits is a leading chit fund company dedicated to empowering individuals like you to achieve financial freedom. We offer a secure and transparent platform for saving and borrowing, tailored to meet your specific needs.
     </p>
     <button
-      className="font-poppins md:mt-16  bg-[#00be54] text-md rounded-full text-white h-[40px] w-[116px]"
+      className="font-poppins md:mt-16  bg-[#00be54] text-lg rounded-full text-white h-[40px] w-[116px]"
       style={{ transition: 'none' }}
     >
       Know More

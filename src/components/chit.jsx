@@ -122,61 +122,61 @@ function Chit() {
                                     <span className='font-poppins text-2xl md:text-3xl text-black font-semibold'>
                                         How Does A Chit Fund Work?
                                     </span>
-                                    <p className='font-light text-md mt-4 font-poppins text-[#535353] text-left'>
+                                    <p className='font-light text-lg mt-4 font-poppins text-[#535353] text-left'>
                                         Simply put, the chit fund begins on a specified date and continues for the number of months equal to the number of subscribers. Members contribute their monthly instalments to the pot, and a reverse auction is conducted each month allowing members to bid for the Prize Money.
                                     </p>
-                                    <p className='font-light text-md font-poppins text-[#535353] text-left'>
+                                    <p className='font-light text-lg font-poppins text-[#535353] text-left'>
                                         The subscriber willing to take the lowest sum with the lowest bid is declared the winner and receives the Prize Money for that month. The balance amount is distributed as a dividend among all members after deducting the Foreman’s Commission (5%). The process is repeated each month, thus allowing each member to win the Prize Money.
                                     </p>
-                                    <p className='font-light text-md font-poppins text-[#535353] text-left'>
+                                    <p className='font-light text-lg font-poppins text-[#535353] text-left'>
                                         A Chit fund offers you the unique advantage of allowing you to borrow from your future savings.
                                     </p>
                                 </div>
                                 <img src={plant} className='md:h-[350px] md:w-[500px] object-cover md:block hidden' alt="Chit Fund Illustration"></img>
                             </div>
                             <span className='font-poppins md:mt-6 mt-6 md:text-xl text-black font-medium'>Example:</span>
-                            <p className='mt-2 font-light text-md font-poppins text-[#535353] text-left'>
+                            <p className='mt-2 font-light text-lg font-poppins text-[#535353] text-left'>
                                 Assume a chit fund scheme with 50 members that will run for 50 months, with each paying a monthly instalment of ₹10,000/- to create a ₹5,00,000/- pot. When the auction is announced, the member who bids the highest discount wins the Bid. (40% is the maximum discount anyone can bid as per Law).
                             </p>
-                            <p className='font-medium text-md font-poppins text-black items-center flex gap-2 text-left'>
-                                <img src={arrow} alt="Arrow" style={{ height: '16px', width: '16px' }} />Number of members in the chit fund scheme <span className='font-light text-md font-poppins text-[#535353] text-left'>- 50</span>
+                            <p className='font-medium text-lg font-poppins text-black items-center flex gap-2 text-left'>
+                                <img src={arrow} alt="Arrow" style={{ height: '16px', width: '16px' }} />Number of members in the chit fund scheme <span className='font-light text-lg font-poppins text-[#535353] text-left'>- 50</span>
                             </p>
-                            <p className='font-medium text-md font-poppins text-black  items-center flex gap-2 text-left'>
-                                <img src={arrow} alt="Arrow" style={{ height: '16px', width: '16px' }} />Duration <span className='font-light text-md font-poppins text-[#535353] text-left'>- 50 months</span>
+                            <p className='font-medium text-lg font-poppins text-black  items-center flex gap-2 text-left'>
+                                <img src={arrow} alt="Arrow" style={{ height: '16px', width: '16px' }} />Duration <span className='font-light text-lg font-poppins text-[#535353] text-left'>- 50 months</span>
                             </p>
                             {expandmore && (
                                 <>  
 
 
-                                    <p className='font-medium text-md font-poppins text-black  items-center flex gap-2 text-left'>
-                                        <img src={arrow} alt="Arrow" style={{ height: '16px', width: '16px' }} /> Monthly instalment payable by each member  <span className='font-light text-md font-poppins text-[#535353] text-left'>– Rs. 10,000/-</span>
+                                    <p className='font-medium text-lg font-poppins text-black  items-center flex gap-2 text-left'>
+                                        <img src={arrow} alt="Arrow" style={{ height: '16px', width: '16px' }} /> Monthly instalment payable by each member  <span className='font-light text-lg font-poppins text-[#535353] text-left'>– Rs. 10,000/-</span>
                                     </p>
-                                    <p className='font-medium text-md font-poppins text-black  items-center flex gap-2 text-left'>
-                                        <img src={arrow} alt="Arrow" style={{ height: '16px', width: '16px' }} />Total pot value   <span className='font-light text-md font-poppins text-[#535353] text-left'>– Rs. 5,00,000/- (50 members x 10,000)</span>
+                                    <p className='font-medium text-lg font-poppins text-black  items-center flex gap-2 text-left'>
+                                        <img src={arrow} alt="Arrow" style={{ height: '16px', width: '16px' }} />Total pot value   <span className='font-light text-lg font-poppins text-[#535353] text-left'>– Rs. 5,00,000/- (50 members x 10,000)</span>
                                     </p>
-                                    <p className='font-light text-md font-poppins text-[#535353] text-left'>In this example, let us assume the winning Bid offered a 35% discount.</p>
-                                    <p className='font-medium text-md font-poppins text-black  items-center flex gap-2 text-left'>
-                                        <img src={arrow} alt="Arrow" style={{ height: '16px', width: '16px' }} />Discount offered by the winning Bid <span className='font-light text-md font-poppins text-[#535353] text-left'> – 35%</span>
+                                    <p className='font-light text-lg font-poppins text-[#535353] text-left'>In this example, let us assume the winning Bid offered a 35% discount.</p>
+                                    <p className='font-medium text-lg font-poppins text-black  items-center flex gap-2 text-left'>
+                                        <img src={arrow} alt="Arrow" style={{ height: '16px', width: '16px' }} />Discount offered by the winning Bid <span className='font-light text-lg font-poppins text-[#535353] text-left'> – 35%</span>
                                     </p>
-                                    <p className='font-medium text-md font-poppins text-black  items-center flex gap-2 text-left'>
-                                        <img src={arrow} alt="Arrow" style={{ height: '16px', width: '16px' }} />Amount of discount  <span className='font-light text-md font-poppins text-[#535353] text-left'> – Rs. 1,75,000/- (35% of 5,00,000)</span>
+                                    <p className='font-medium text-lg font-poppins text-black  items-center flex gap-2 text-left'>
+                                        <img src={arrow} alt="Arrow" style={{ height: '16px', width: '16px' }} />Amount of discount  <span className='font-light text-lg font-poppins text-[#535353] text-left'> – Rs. 1,75,000/- (35% of 5,00,000)</span>
                                     </p>
-                                    <p className='font-medium text-md font-poppins text-black  items-center flex gap-2 text-left'>
-                                        <img src={arrow} alt="Arrow" style={{ height: '16px', width: '16px' }} />Amount received by the winner   <span className='font-light text-md font-poppins text-[#535353] text-left'>– Rs. 3,25,000/- (5,00,000 less 1,75,000)</span>
+                                    <p className='font-medium text-lg font-poppins text-black  items-center flex gap-2 text-left'>
+                                        <img src={arrow} alt="Arrow" style={{ height: '16px', width: '16px' }} />Amount received by the winner   <span className='font-light text-lg font-poppins text-[#535353] text-left'>– Rs. 3,25,000/- (5,00,000 less 1,75,000)</span>
                                     </p>
-                                    <p className='font-light text-md font-poppins text-[#535353] text-left'>The balance amount is distributed equally among the members after deducting the Foreman’s commission.</p>
-                                    <p className='font-medium text-md font-poppins text-black  items-center flex gap-2 text-left'>
-                                        <img src={arrow} alt="Arrow" style={{ height: '16px', width: '16px' }} />Foreman’s commission <span className='font-light text-md font-poppins text-[#535353] text-left'> – 5-7% = Rs. 25,000/-</span>
+                                    <p className='font-light text-lg font-poppins text-[#535353] text-left'>The balance amount is distributed equally among the members after deducting the Foreman’s commission.</p>
+                                    <p className='font-medium text-lg font-poppins text-black  items-center flex gap-2 text-left'>
+                                        <img src={arrow} alt="Arrow" style={{ height: '16px', width: '16px' }} />Foreman’s commission <span className='font-light text-lg font-poppins text-[#535353] text-left'> – 5-7% = Rs. 25,000/-</span>
                                     </p>
-                                    <p className='font-medium text-md font-poppins text-black  items-center flex gap-2 text-left'>
-                                        <img src={arrow} alt="Arrow" style={{ height: '16px', width: '16px' }} />Total Dividend <span className='font-light text-md font-poppins text-[#535353] text-left'>  – Rs. 1,75,000 less Rs. 25,000 = Rs. 1,50,000/-</span>
+                                    <p className='font-medium text-lg font-poppins text-black  items-center flex gap-2 text-left'>
+                                        <img src={arrow} alt="Arrow" style={{ height: '16px', width: '16px' }} />Total Dividend <span className='font-light text-lg font-poppins text-[#535353] text-left'>  – Rs. 1,75,000 less Rs. 25,000 = Rs. 1,50,000/-</span>
                                     </p>
-                                    <p className='font-medium text-md font-poppins text-black  items-center flex gap-2 text-left'>
-                                        <img src={arrow} alt="Arrow" style={{ height: '16px', width: '16px' }} />Dividend credited to each member’s account   <span className='font-light text-md font-poppins text-[#535353] text-left'> – 1,50,000/50 = Rs. 3,000/-</span>
+                                    <p className='font-medium text-lg font-poppins text-black  items-center flex gap-2 text-left'>
+                                        <img src={arrow} alt="Arrow" style={{ height: '16px', width: '16px' }} />Dividend credited to each member’s account   <span className='font-light text-lg font-poppins text-[#535353] text-left'> – 1,50,000/50 = Rs. 3,000/-</span>
                                     </p>
                                   
                                     
-                                    <p className='font-light text-md font-poppins text-[#535353] text-left'>So in the following month, the member will have to pay only ₹7,000(₹10,000-₹3,000) instead of ₹10,000.</p>
+                                    <p className='font-light text-lg font-poppins text-[#535353] text-left'>So in the following month, the member will have to pay only ₹7,000(₹10,000-₹3,000) instead of ₹10,000.</p>
                                
 
                                 </>
@@ -199,7 +199,7 @@ function Chit() {
                             <span className='font-poppins text-2xl md:text-3xl text-black font-semibold'>
                                 Your All-in-One Savings & Borrowing Solution
                             </span>
-                            <p className='font-light mt-4  text-md font-poppins text-[#535353] text-center'>
+                            <p className='font-light mt-4  text-lg font-poppins text-[#535353] text-center'>
                                 Chits offer a unique way to save and borrow, designed to fit everyone's needs. Invest with Valli Chits and leverage the power of this convenient financial tool. Grow your savings, access funds when needed, and achieve your short and long-term goals. Choose Valli Chits to unlock the benefits of chits
                             </p>
 
@@ -212,7 +212,7 @@ function Chit() {
                                             <img src={card.icon} alt={card.title} className="h-8 w-8 mb-2" />
                                             <span className="text-xl font-semibold text-gray-900">{card.title}</span>
                                         </div>
-                                        <p className={`text-gray-600  text-md transition-all duration-300 ${expandedIndex === index ? 'h-auto' : 'h-16'}`}>
+                                        <p className={`text-gray-600  text-lg transition-all duration-300 ${expandedIndex === index ? 'h-auto' : 'h-16'}`}>
                                             {expandedIndex === index ? card.fullText : card.description}
                                         </p>
                                         <button
@@ -224,7 +224,7 @@ function Chit() {
                                 ))}
                             </div>
 
-                            <p className='font-light mt-4 font-poppins  text-md text-[#535353] text-center'>
+                            <p className='font-light mt-4 font-poppins  text-lg text-[#535353] text-center'>
                                 A genuinely unique financial system, Chits is a favourite choice among many people. Be it a homemaker or a business person, a chit group can provide you with funds on short notice.
                             </p>
                         </div>
@@ -242,10 +242,10 @@ function Chit() {
             <div className=' md:mt-5 flex bg-[#F5F5F5] flex-col items-center md:py-10 md:px-20 px-4 '>
                 <h1 className='font-poppins mt-4 text-2xl md:text-3xl text-black font-semibold'>Chit <span className='font-poppins text-2xl md:text-3xl !text-[#00be54] font-semibold'>Calculator</span></h1>
                 <div className='flex flex-col items-center justify-center lg:w-[70%] w-full'>
-                    <p className='font-light mt-4 font-poppins text-md text-[#535353] text-center'>
+                    <p className='font-light mt-4 font-poppins text-lg text-[#535353] text-center'>
                         Determine which plan best suits your needs. Input your monthly income and let our accurate Chit Calculator do the rest.
                     </p>
-                    <p className='font-light  font-poppins text-md text-[#535353] text-center'>
+                    <p className='font-light  font-poppins text-lg text-[#535353] text-center'>
                         Select the most appropriate Chit Group by inputting your monthly income, the monthly installment you wish to pay, or the desired Prize Money.
                     </p>
                 </div>

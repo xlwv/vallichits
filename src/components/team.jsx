@@ -53,7 +53,7 @@ function Team() {
         <div ref={start} className='anime py-8 md:py-20 md:px-15 px-4 overflow-hidden flex flex-col gap-8'>
             <div className='flex flex-col items-center'>
                 <h1 className='team-title font-poppins text-3xl text-[#333333] font-bold text-center '>Guided by Visionary Leaders</h1>
-                <p className='team-description text-md font-poppins text-[#535353] text-justify md:text-center mt-3'>
+                <p className='team-description text-lg font-poppins text-[#535353] text-justify md:text-center mt-3'>
                     At Valli Chits, we're driven by a team of passionate founders who understand the importance of financial empowerment. Their dedication to ethical practices and innovative solutions shapes our commitment to your success.
                 </p>
             </div>

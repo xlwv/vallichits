@@ -20,7 +20,7 @@ function Banner({ title, subtitle, bannerimg }) {
 
             <div className='flex justify-between w-full '>
                 <div className='md:ml-20 ml-4 flex w-1/2 flex-col '>
-                    <h1 className='font-poppins font-extrabold text-white text-5xl' >{title}</h1>
+                    <h1 className='font-poppins font-extrabold text-white text-4xl md:text-6xl' >{title}</h1>
                     <h1 className='font-poppins font-mediun text-white text-base'>{subtitle}</h1>
                 </div>
 

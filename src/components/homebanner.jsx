@@ -21,10 +21,10 @@ function Homebanner() {
 
             <div className='flex justify-between w-full '>
                 <div className='md:ml-20 ml-4 flex md:w-1/2 w-3/5 flex-col '>
-                    <h1 className='font-poppins font-extrabold text-white text-4xl md:text-5xl' >Turn Your Savings Goals into Reality</h1>
+                    <h1 className='font-poppins font-extrabold text-white text-4xl md:text-6xl' >Turn Your Savings Goals into Reality</h1>
                     <h1 className='font-poppins mt-2 font-mediun text-white text-base'>Transparent Transactions, Trusted Relationships</h1>
                     <button
-              className="font-poppins mt-3  bg-[#00be54] text-md rounded-full text-white h-[40px] w-[116px]"
+              className="font-poppins mt-3  bg-[#00be54] text-lg rounded-full text-white h-[40px] w-[116px]"
               style={{ transition: 'none' }}
             >
               Know More

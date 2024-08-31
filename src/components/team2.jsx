@@ -27,7 +27,7 @@ function Team2() {
 
             <div className='flex flex-col items-center'>
                 <h1 className='team-title font-poppins text-3xl text-[#333333] font-bold text-center '>Guided by Visionary Leaders</h1>
-                <p className='team-description ml-2  mr-2 md:ml-20 md:mr-20 text-md font-poppins text-[#535353] text-justify md:text-center mt-3'>
+                <p className='team-description ml-2  mr-2 md:ml-20 md:mr-20 text-lg font-poppins text-[#535353] text-justify md:text-center mt-3'>
                     At Valli Chits, we're driven by a team of passionate founders who understand the importance of financial empowerment. Their dedication to ethical practices and innovative solutions shapes our commitment to your success.
                 </p>
             </div>
@@ -42,13 +42,13 @@ function Team2() {
 
                 <div className='flex border-black justify-between md:gap-6 md:pr-[15vw] items-center border-t h-[20vh] border-b'>
                     <div className='flex justify-between text-center  gap-2'>
-                        <span className='font-poppins text-center flex items-center text-md'>01</span>
+                        <span className='font-poppins text-center flex items-center text-lg'>01</span>
                         <motion.span
                             initial={{ x: "0" }}
                             // animate={box1 ? { x: "9%" } : { x: "0%" }}.
                             animate={box1 && !isSmallScreen ? { x: "9%" } : { x: "0%" }}
 
-                            className='font-poppins text-md md:text-lg md:ml-20 font-semibold uppercase group-hover:text-[#00BE54]'>director and chairman</motion.span>
+                            className='font-poppins text-lg md:text-lg md:ml-20 font-semibold uppercase group-hover:text-[#00BE54]'>director and chairman</motion.span>
                     </div>
                     <motion.div
                         initial={{ scale: 0.5 }}
@@ -85,13 +85,13 @@ function Team2() {
 
                 <div className='flex justify-between md:gap-6 md:pr-[15vw] items-center  h-[20vh] '>
                     <div className='flex justify-between text-center  gap-2'>
-                        <span className='font-poppins text-center flex items-center text-md'>02</span>
+                        <span className='font-poppins text-center flex items-center text-lg'>02</span>
                         <motion.span
                             initial={{ x: "0" }}
                             // animate={box1 ? { x: "9%" } : { x: "0%" }}.
                             animate={box2 && !isSmallScreen ? { x: "9%" } : { x: "0%" }}
 
-                            className='font-poppins text-md md:text-lg md:ml-20 font-semibold uppercase group-hover:text-[#00BE54]'>director and chairman</motion.span>
+                            className='font-poppins text-lg md:text-lg md:ml-20 font-semibold uppercase group-hover:text-[#00BE54]'>director and chairman</motion.span>
                     </div>
                     <motion.div
                         initial={{ scale: 0.5 }}
@@ -126,13 +126,13 @@ function Team2() {
 
                 <div className='flex border-black justify-between md:gap-6 md:pr-[15vw] items-center border-t h-[20vh] border-b'>
                     <div className='flex justify-between text-center  gap-2'>
-                        <span className='font-poppins text-center flex items-center text-md'>03</span>
+                        <span className='font-poppins text-center flex items-center text-lg'>03</span>
                         <motion.span
                             initial={{ x: "0" }}
                             // animate={box1 ? { x: "9%" } : { x: "0%" }}.
                             animate={box3 && !isSmallScreen ? { x: "9%" } : { x: "0%" }}
 
-                            className='font-poppins text-md md:text-lg md:ml-20 font-semibold uppercase group-hover:text-[#00BE54]'>director and chairman</motion.span>
+                            className='font-poppins text-lg md:text-lg md:ml-20 font-semibold uppercase group-hover:text-[#00BE54]'>director and chairman</motion.span>
                     </div>
                     <motion.div
                         initial={{ scale: 0.5 }}

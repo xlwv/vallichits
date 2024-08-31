@@ -4,7 +4,7 @@ import women from '../images/women.png';
 
 function Homesec3() {
     return (
-        <div className='bg-[#008080] relative h-[60vh] flex justify-between   md:pr-20 pr-4 md:pl-20 pl-4 pt-8 gap-4'
+        <div className='bg-[#008080] relative h-[60vh] flex justify-between  md:pr-20 pr-4 md:pl-20 pl-4 pt-8 gap-4'
             style={{
                 backgroundImage: `url(${pattern})`,
                 backgroundSize: 'cover',

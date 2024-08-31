@@ -16,7 +16,7 @@ function Offer() {
         width: '100%',
       }}
     >
-      <div className='pt-5 flex flex-col items-center justify-center gap-6'>
+      <div className='pt-5 flex flex-col items-center justify-center '>
         <h1 className='font-poppins text-2xl sm:text-3xl md:text-4xl text-white font-bold'>
           What We Offer
         </h1>

@@ -1,0 +1,91 @@
+/* General range input styles */
+input[type="range"] {
+    -webkit-appearance: none; /* Hides default track */
+    appearance: none;
+    width: 100%;
+    height: 6px; /* Adjusts the track height */
+    background: #d3d3d3; /* Track color */
+    border-radius: 5px;
+    outline: none;
+    margin-top: 20px; /* Adjusts the position of the slider */
+  }
+  
+  /* Track styles */
+  input[type="range"]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 6px;
+    cursor: pointer;
+    background: #d3d3d3;
+    border-radius: 5px;
+  }
+  
+  input[type="range"]::-moz-range-track {
+    width: 100%;
+    height: 8px;
+    cursor: pointer;
+    background: #d3d3d3;
+    border-radius: 5px;
+  }
+  
+  input[type="range"]::-ms-track {
+    width: 100%;
+    height: 8px;
+    cursor: pointer;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+  }
+  
+  /* Thumb styles */
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 24px; /* Thumb size */
+    height: 24px;
+    background: #00BE54; /* Green color for thumb */
+    border-radius: 50%; /* Round thumb */
+    border: 4px solid #FFFFFF; /* White border */
+    cursor: pointer;
+    margin-top: -8px; /* Centers the thumb over the track */
+  }
+  
+  input[type="range"]::-moz-range-thumb {
+    width: 24px;
+    height: 24px;
+    background: #00BE54;
+    border-radius: 50%;
+    border: 3px solid #FFFFFF;
+    cursor: pointer;
+  }
+  
+  input[type="range"]::-ms-thumb {
+    width: 20px;
+    height: 20px;
+    background: #00BE54;
+    border-radius: 50%;
+    border: 4px solid #FFFFFF;
+    cursor: pointer;
+  }
+  
+  /* Tick marks */
+  input[type="range"]::-moz-range-progress {
+    background: #00BE54; /* Green color for the filled part of the track */
+  }
+  
+  input[type="range"]::-ms-fill-lower {
+    background: #00BE54;
+  }
+  
+  input[type="range"]::-ms-fill-upper {
+    background: #d3d3d3;
+  }
+  
+  /* Hover and focus styles */
+  input[type="range"]:hover::-webkit-slider-thumb {
+    background: #00BE54; 
+  }
+  
+  /* input[type="range"]:focus::-webkit-slider-thumb {
+    box-shadow: 0 0 0 8px rgba(0, 190, 84, 0.2); 
+  } */
+  

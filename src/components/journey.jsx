@@ -13,7 +13,7 @@ function Journey() {
                 Valli Chits <span className="text-[#00be54]">Your Savings Journey Made Easy</span>
             </h2>
             <div className='mb-4 flex items-center pt-4 justify-center mt-4 relative w-full p-3 bg-[#00BE54] rounded-full font-poppins text-white text-lg '>
-                <span>Chit Value(Chit Amount) = Rs.5 Lac (10K x 50), Members:50, Duration:50 Months, Auction finalised at 30%</span>
+                <span className='p-1'>Chit Value(Chit Amount) = Rs.5 Lac (10K x 50), Members:50, Duration:50 Months, Auction finalised at 30%</span>
                 <span
                     style={{ borderColor: '#00BE54', borderStyle: 'solid', borderWidth: '1px' }}
                     className="absolute -top-5 rounded-full p-2 bg-white text-black font-poppins font-medium text-lg">

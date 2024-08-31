@@ -4,7 +4,7 @@ import man from '../images/man.png';
 
 function Homesec2() {
     return (
-        <div className='bg-[#008080] relative flex  md:h-[52vh] h-[57vh]  md:pr-20 pr-4 md:pl-20 pl-4 pt-8 gap-4'
+        <div className='bg-[#008080] relative flex  md:h-[52vh] h-[62vh]  md:pr-20 pr-4 md:pl-20 pl-4 pt-8 gap-4'
             style={{
                 backgroundImage: `url(${pattern})`,
                 backgroundSize: 'cover',

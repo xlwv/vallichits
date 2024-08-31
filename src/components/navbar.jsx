@@ -24,7 +24,7 @@ function NavBar() {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ms-auto flex items-center text-base bg-white font-medium space-x-4">
+          <Nav className="ms-auto flex items-center text-lg text-base bg-white font-medium space-x-4">
             <Nav.Link
               as={Link}
               to="/"

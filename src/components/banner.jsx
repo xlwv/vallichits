@@ -13,7 +13,7 @@ function Banner({ title, subtitle, bannerimg }) {
 
             backgroundSize: 'cover',
             backgroundPosition: 'center',
-            height: '500px',
+            
             width: '100%',
         }}>
 

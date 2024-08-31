@@ -14,7 +14,7 @@ function Homebanner() {
 
             backgroundSize: 'cover',
             backgroundPosition: 'center',
-            height: '500px',
+           
             width: '100%',
         }}>
 
@@ -24,7 +24,7 @@ function Homebanner() {
                     <h1 className='font-poppins font-extrabold text-white text-4xl md:text-5xl' >Turn Your Savings Goals into Reality</h1>
                     <h1 className='font-poppins mt-2 font-mediun text-white text-base'>Transparent Transactions, Trusted Relationships</h1>
                     <button
-              className="font-poppins mt-3  bg-[#00be54] text-sm rounded-full text-white h-[40px] w-[116px]"
+              className="font-poppins mt-3  bg-[#00be54] text-md rounded-full text-white h-[40px] w-[116px]"
               style={{ transition: 'none' }}
             >
               Know More

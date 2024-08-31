@@ -26,7 +26,7 @@ function Homesec2() {
 
 
                 <button
-                    className="font-poppins bg-white  font-semibold text-sm rounded-full  shadow-xl text-black h-[40px] w-[116px]"
+                    className="font-poppins bg-white  font-semibold text-md rounded-full  shadow-xl text-black h-[40px] w-[116px]"
                     style={{ transition: 'none' }}
                 >
                     join us now

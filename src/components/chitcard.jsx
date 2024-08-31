@@ -15,20 +15,20 @@ const ChitCard = ({ chitNo, periodMonths, tickets, installmentAmount, chitAmount
                 <div className='flex justify-evenly items-center mt-4 pt-3 pb-3 ml-2 mr-2 border-t-[#DEDEDE] border-t-[1.5px] border-b-[#DEDEDE] border-b-[1.5px]'>
                     <div className="flex flex-col justify-between items-left ">
                         <span className="text-[#00BE54] font-poppins font-bold text-lg">{tickets}</span>
-                        <span className="text-[#535353] font-poppins text-sm">Available Tickets</span>
+                        <span className="text-[#535353] font-poppins text-md">Available Tickets</span>
                     </div>
                     <div className=' border-r-[#DEDEDE] h-[50px] border-r-[1.5px]'></div>
 
                     <div className="flex flex-col pl-2 pr-2 justify-between items-left ">
                         <span className="text-[#00BE54] font-poppins font-bold text-lg">₹ {installmentAmount}</span>
-                        <span className="text-[#535353] font-poppins text-sm">Installment Amount</span>
+                        <span className="text-[#535353] font-poppins text-md">Installment Amount</span>
                     </div>
 
                     <div className='border-r-[#DEDEDE] h-[50px]  border-r-[1.5px]'></div>
 
                     <div className="flex flex-col pl-2 justify-between items-left ">
                         <span className="text-[#00BE54] font-poppins font-bold text-lg">₹ {chitAmount}</span>
-                        <span className="text-[#535353] font-poppins text-sm">Chit Amount</span>
+                        <span className="text-[#535353] font-poppins text-md">Chit Amount</span>
                     </div>
                 </div>
 
@@ -38,16 +38,16 @@ const ChitCard = ({ chitNo, periodMonths, tickets, installmentAmount, chitAmount
                             <div className='flex gap-4'>
                                 {/* <div className='border-r-[#DEDEDE] h-full border-r-[1.5px]'></div> */}
                                 <div className='flex flex-col gap-1 w-1/2 text-right space-around'>
-                                    <span className='font-poppins text-sm text-white'>Proposed</span>
-                                    <span className='font-poppins text-sm text-white'>First Auction Date</span>
+                                    <span className='font-poppins text-md text-white'>Proposed</span>
+                                    <span className='font-poppins text-md text-white'>First Auction Date</span>
                                     <span className='font-poppins text-md font-semibold text-white'>{proposedDate}</span>
                                 </div>
 
                                 <div className='border-r-white border-r-[1px]'></div>
 
                                 <div className='flex flex-col gap-1 w-1/2 text-left space-around'>
-                                    <span className='font-poppins text-sm text-white'>Proposed Second</span>
-                                    <div className='font-poppins text-sm text-white'>Installment Due Date</div>
+                                    <span className='font-poppins text-md text-white'>Proposed Second</span>
+                                    <div className='font-poppins text-md text-white'>Installment Due Date</div>
                                     <span className='font-poppins text-md font-semibold text-white'>{dueDate}</span>
                                 </div>
                             </div>
@@ -55,9 +55,9 @@ const ChitCard = ({ chitNo, periodMonths, tickets, installmentAmount, chitAmount
 
                         <div className='flex mt-3 items-center justify-center'>
                             <div className='flex items-center justify-center gap-1'>
-                                <span className='font-poppins text-sm text-white'>Auction Center: </span>
+                                <span className='font-poppins text-md text-white'>Auction Center: </span>
                                 <CiLocationOn className='text-white' />
-                                <span className='font-poppins font-semibold text-sm text-white'>{location}</span>
+                                <span className='font-poppins font-semibold text-md text-white'>{location}</span>
                             </div>
                         </div>
                     </div>

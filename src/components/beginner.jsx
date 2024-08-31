@@ -24,22 +24,22 @@ function Beginner() {
                     </div>
                     <div className='md:w-1/2 flex flex-col  p-0 md:p-8'>
                         <span className='font-poppins text-2xl md:text-3xl text-black font-semibold'>Beginner</span>
-                        <p className='font-light mt-3 font-poppins text-sm text-[#535353] text-justify'>
+                        <p className='font-light mt-3 font-poppins text-md text-[#535353] text-justify'>
                             Building the habit of regular investments.
                         </p>
-                        <p className='font-light text-sm   text-md font-poppins text-[#535353] text-justify '>
+                        <p className='font-light text-md   text-md font-poppins text-[#535353] text-justify '>
                             <span className='font-semibold text-black'>Monthly compulsory saving: </span> Looking to build your savings?
                         </p>
-                        <p className='font-light text-sm  font-poppins text-[#535353]  '>
+                        <p className='font-light text-md  font-poppins text-[#535353]  '>
                             <span className='font-semibold text-black'>Higher studies: </span> Want to increase your earning potential by progressing in your career through higher education?
                         </p>
-                        <p className='font-light  text-sm font-poppins text-[#535353] '>
+                        <p className='font-light  text-md font-poppins text-[#535353] '>
                             <span className='font-semibold text-black'>Large expenses: </span> Need to save money for your marriage?
                         </p>
-                        <p className='font-light text-sm  font-poppins text-[#535353]  '>
+                        <p className='font-light text-md  font-poppins text-[#535353]  '>
                             <span className='font-semibold text-black'>Latest Gadgets: </span> Wish to get your hands on the latest iPhone, laptops, PlayStation, etc?
                         </p>
-                        <p className='font-light text-sm  font-poppins text-[#535353]  '>
+                        <p className='font-light text-md  font-poppins text-[#535353]  '>
                             <span className='font-semibold text-black'>Get on the road:</span> Require a simple borrowing solution to purchase your first car, bike, etc?
                         </p>
 

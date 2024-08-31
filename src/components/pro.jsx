@@ -24,20 +24,20 @@ function Pro() {
                     </div>
                     <div className='md:w-1/2 flex flex-col  p-0 md:p-8'>
                         <span className='font-poppins text-2xl md:text-3xl text-black font-semibold'>Experienced Professionals</span>
-                        <p className='font-light mt-3 font-poppins text-sm text-[#535353] text-justify'>
+                        <p className='font-light mt-3 font-poppins text-md text-[#535353] text-justify'>
                         Economical and invaluable options to reduce dependency on loans and avoid liabilities.
                         </p>
-                        <p className='font-light text-sm   text-md font-poppins text-[#535353] text-justify '>
+                        <p className='font-light text-md   text-md font-poppins text-[#535353] text-justify '>
                             <span className='font-semibold text-black'>Prepay Loans: </span> Want to save your hard-earned money by pre-closing your loans?
                         </p>
-                        <p className='font-light text-sm  font-poppins text-[#535353]  '>
+                        <p className='font-light text-md  font-poppins text-[#535353]  '>
                             <span className='font-semibold text-black'>Credit card dues: </span>  Looking to clear the outstanding amount on your Credit card?
                         </p>
-                        <p className='font-light  text-sm font-poppins text-[#535353] '>
+                        <p className='font-light  text-md font-poppins text-[#535353] '>
                             <span className='font-semibold text-black'>Future Expenses:</span>  Seeking a convenient saving solution for marriages, child’s education, dream car, house renovation, etc?
                         </p>
                        
-                        <p className='font-light text-sm  font-poppins text-[#535353]  '>
+                        <p className='font-light text-md  font-poppins text-[#535353]  '>
                             <span className='font-semibold text-black'> Realize your dreams:</span> Wouldn’t you love to buy your first home or take your first trip overseas?
                         </p>
 

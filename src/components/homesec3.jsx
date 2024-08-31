@@ -4,7 +4,7 @@ import women from '../images/women.png';
 
 function Homesec3() {
     return (
-        <div className='bg-[#008080] relative h-[60vh] flex justify-between h-fit  md:pr-20 pr-4 md:pl-20 pl-4 pt-8 gap-4'
+        <div className='bg-[#008080] relative h-[60vh] flex justify-between   md:pr-20 pr-4 md:pl-20 pl-4 pt-8 gap-4'
             style={{
                 backgroundImage: `url(${pattern})`,
                 backgroundSize: 'cover',
@@ -25,7 +25,7 @@ function Homesec3() {
                 </span>
 
                 <button
-                    className="font-poppins pl-3 pr-3 bg-white w-fit font-semibold text-sm rounded-full shadow-xl text-black h-[40px] w-[116px]"
+                    className="font-poppins pl-3 pr-3 bg-white w-fit font-semibold text-md rounded-full shadow-xl text-black h-[40px] w-[116px]"
                     style={{ transition: 'none' }}
                 >
                     Calculate now

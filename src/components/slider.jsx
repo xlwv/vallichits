@@ -49,7 +49,7 @@ const Sliding = () => {
                 <h2 className="font-poppins text-3xl md:text-4xl font-semibold">
                     Personalised <span className="text-[#00be54]">Financial Solutions</span>
                 </h2>
-                <p className="font-poppins text-sm text-gray-600 mt-4">
+                <p className="font-poppins text-md text-gray-600 mt-4">
                     Valli Chits Guides You to Financial Freedom: Invest with Confidence, Borrow with Ease, and Partner with Us for Success.
                 </p>
             </div>

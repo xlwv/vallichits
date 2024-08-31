@@ -24,21 +24,21 @@ function Offer() {
           <div className='flex flex-col w-full sm:w-1/2 md:w-1/3 lg:w-1/4 justify-center items-center'>
             <img src={one} alt="Offering 1" style={{ height: '150px', width: '150px' }} />
             <h1 className='font-bold text-lg sm:text-xl font-poppins text-white'>Transparency</h1>
-            <p className='font-thin font-poppins text-sm text-white text-center'>
+            <p className='font-thin font-poppins text-md text-white text-center'>
               Clear communication keeps you informed about your chit fund with detailed statements and easy access to information.
             </p>
           </div>
           <div className='flex flex-col w-full sm:w-1/2 md:w-1/3 lg:w-1/4 justify-center items-center'>
             <img src={two} alt="Offering 2" style={{ height: '150px', width: '150px' }} />
             <h1 className='font-bold text-lg sm:text-xl font-poppins text-white'>Transparency</h1>
-            <p className='font-thin font-poppins text-sm text-white text-center'>
+            <p className='font-thin font-poppins text-md text-white text-center'>
               Clear communication keeps you informed about your chit fund with detailed statements and easy access to information.
             </p>
           </div>
           <div className='flex flex-col w-full sm:w-1/2 md:w-1/3 lg:w-1/4 justify-center items-center'>
             <img src={three} alt="Offering 3" style={{ height: '150px', width: '150px' }} />
             <h1 className='font-bold text-lg sm:text-xl font-poppins text-white'>Transparency</h1>
-            <p className='font-thin font-poppins text-sm text-white text-center'>
+            <p className='font-thin font-poppins text-md text-white text-center'>
               Clear communication keeps you informed about your chit fund with detailed statements and easy access to information.
             </p>
           </div>
